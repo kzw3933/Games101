@@ -40,17 +40,29 @@ int main(){
     std::cout << "Example of output \n";
     std::cout << i << std::endl;
     // matrix add i + j
+    std::cout << i + j << std::endl;
     // matrix scalar multiply i * 2.0
+    std::cout << i * 0.2f << std::endl;
     // matrix multiply i * j
+    std::cout << i * j << std::endl;
     // matrix multiply vector i * v
-
+    std::cout << i * v << std::endl;
 
     /* 
     * PA 0
     */
     // TO DO: Define point P
+    Eigen::Vector3f P(2.0f,1.0f,1.0f);
     // TO DO: Define rotation matrix M
+    Eigen::Matrix3f M;
+    M << - std::sin(45.0/180.0*acos(-1)),  std::cos(45.0/180.0*acos(-1)), 1.0f ,
+          std::cos(45.0/180.0*acos(-1)),  std::sin(45.0/180.0*acos(-1)), 2.0f,
+          0.0f, 0.0f, 1.0f;
+
     // TO DO: M * P
+    std::cout << M;
+    std::cout << M * P << std::endl;
+
     return 0;
 
     
