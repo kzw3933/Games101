@@ -1,7 +1,0 @@
-[
-{
-  "directory": "E:/Savefiles/C++/Games101/build",
-  "command": "E:/SystemSoft/TDM-GCC-64/bin/g++.exe  @CMakeFiles/Transformation.dir/includes_CXX.rsp -g -o CMakeFiles/Transformation.dir/main.cpp.obj -c E:/Savefiles/C++/Games101/PA0/main.cpp",
-  "file": "E:/Savefiles/C++/Games101/PA0/main.cpp"
-}
-]

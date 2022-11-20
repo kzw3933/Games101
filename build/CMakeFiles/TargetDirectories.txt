@@ -1,3 +1,0 @@
-E:/Savefiles/C++/Games101/build/CMakeFiles/Transformation.dir
-E:/Savefiles/C++/Games101/build/CMakeFiles/edit_cache.dir
-E:/Savefiles/C++/Games101/build/CMakeFiles/rebuild_cache.dir
